@@ -1,0 +1,663 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Document</title> 
+    <script src="https://cdn.tailwindcss.com"></script>
+   <script> 
+        tailwind.config = { 
+          theme: { 
+              screens: { 
+                'sm': {  'max': '400px'}, 
+                     // => @media (max-width: 639px) { ... } 
+            } 
+          } 
+        } 
+      </script> 
+    
+
+</head> 
+<body class="bg-[#F4F7FA] w-[1500px] sm:w-[400px]">
+  <div class=" flex justify-between items-center w-[90%] h-[100px] m-auto sm:w-[399px] sm:justify-center sm:gap-4">
+      <div class="flex gap-8 items-center">
+          <img class="sm: w-[50px]" width="100px"  src="logo.PNG" alt="">
+          <div class="sm:hidden"><p class="text-[7px]">Первый цифровой международный <br>
+              юридический центр</p></div>
+            
+      </div>
+    
+          
+          <div class="flex gap-8 items-center ">
+              <p class="text-[14px] sm:hidden"> <b>8 (800) 511-37-68</b></p>
+              <button class="w-[100px] h-[50px] bg-[#273895] text-white rounded-xl">Войти</button>
+          </div>
+        
+      </div>
+    
+  <!-- ________________________NAV-BAR_______________________________________ -->
+  <div class="flex w-[90%] items-center animate-pulse h-[70px] gap-10 m-auto sm:hidden"><p>О компании</p> <p class="text-[#273895]">Услуги</p> <p>Sirius</p> <p>Тарифи</p> <p>FAQ</p> <p>Контакты</p></div>
+
+  <!-- ________________________________main-1___________________________________________ -->
+  <div class="flex justify-between items-center w-[90%] m-auto sm:w-[399px] ">
+      <div class="w-[65%] sm:relative z-10 ">
+          <p class="text-3xl mt-20 sm:text-[20px]  sm:text-center sm: "><b>Юридический полис ILC  — <br>
+              быстрое решение сложных <br>
+               вопросов 24/7</b></p>
+          <p class=" mt-8 sm:text-[8px] sm:w-[400px] ">
+              Ваша личная команда профессиональных юристов, которая всегда под <br> рукой. А также доступ к бонусам партнерской программы — доход <br> 
+до $260 с каждого полиса, купленного по вашему приглашению.
+          </p>
+          <button class="w-[230px] h-[40px] bg-[#273895] text-white rounded-xl mt-8 sm:w-[120px] sm:h-[40px]">Попробовать бесплатно</button>
+      </div>
+    
+      <div class="sm:absolute z-0">
+          <img src="main1.PNG" alt="">
+      </div>
+    
+  </div>
+
+ <!-- ________________________________main-1___________________________________________ -->
+ 
+ <!-- ________________________________main-2___________________________________________ -->
+
+ <div class="flex justify-end w-[90%] sm:flex-wrap sm:w-[400px] sm:justify-center ">
+  <div class="flex justify-evenly items-center gap-28 text-[12px] h-[100px] rounded-lg w-[50%] bg-[#f7f8f9] sm:w-[400px] sm:gap-2 sm:justify-center sm:flex-wrap ">
+      <div class="sm:w-[100px]">
+        <img width="25px"  src="1.PNG" alt="">
+        <p>Юридическая <br>поддержка 24/7</p>
+      </div>
+    
+      <div>
+        <img width="25px" src="2.PNG" alt="">
+        <p>Юридическая <br>поддержка 24/7</p>
+      </div>
+    
+      <div>
+        <img width="25px" src="3.PNG" alt="">
+        <p>Юридическая <br>поддержка 24/7</p>
+      </div>
+    
+  </div>
+
+ </div>
+
+  <!-- ________________________________main-2___________________________________________ -->
+ 
+ <!-- ________________________________main-3___________________________________________ -->
+
+ <div class="flex justify-evenly items-center w-[90%] m-auto   sm:w-[400px] sm:mt-24 ">
+    <div class="w-[50%]">
+      <img class="mt-24" src="logo_horizontal_white 1.png" alt="">
+      <h1 class="text-4xl mt-6">
+        Ваша личная online <br>команда юристов
+      </h1>
+      <p class="mt-6">
+        Мы предоставляем комплексный консалтинговый <br> сервис с полисной системой обслуживания для<br> частных клиентов и для бизнеса, с использованием <br> новейших цифровых технологий.
+
+      </p>
+    </div>
+  
+    <div class="w-[50%]">
+      <div class="flex gap-4 justify-start items-end ml-0">
+        <div class="bg-white rounded-lg mt-24 w-[180px] h-[120px]"><h1 class="text-3xl text-[#7247FF] ">100+ тыс</h1> <p class="text-gray-700 ml-0">Клиентов <br>по всему миру</p></div>
+      
+        <div class="bg-white rounded-lg mt-24 w-[150px] h-[100px]"><h1 class="text-3xl text-[#7247FF] ">15 лет</h1> <p class="text-gray-700">Опытных <br>юристов в штате</p></div>
+      
+        <div class=" -ml-4"><img width="50px" src="Ellipse 13.png" alt=""></div>
+      
+      </div>
+    
+      <div class="flex gap-4 justify-start items-baseline mt-6">
+        <div class=" "><img width="50px" src="Ellipse 40.png" alt=""></div>
+      
+        <div class="bg-white rounded-lg mt-5 w-[150px] h-[100px] -ml-6 "><h1 class="text-3xl text-[#7247FF] ">15 лет</h1> <p class="text-gray-700">Опытных <br>юристов в штате</p></div>
+      
+        <div class=" mt-6"><img width="25px" src="Ellipse 40.png" alt=""></div>
+      
+        <div class="bg-white rounded-lg mt-5 w-[180px] h-[120px] -ml-6"><h1 class="text-3xl text-[#7247FF] ">100+</h1> <p class="text-gray-700 ml-0">Клиентов <br>по всему миру</p></div>
+      
+      </div>
+    
+    </div>
+  
+ </div>
+
+
+ <div class="flex w-[90%] justify-center items-center"><h1 class="text-2xl mt-8 sm:text-xs">Даем поддержку</h1></div>
+
+
+   <!-- ________________________________main-3___________________________________________ -->
+ 
+  <!-- ________________________________main-4___________________________________________ -->
+
+
+  <div class="flex flex-wrap justify-center items-center w-[90%] mt-8 gap-4 sm:[400px]">
+    <div class="bg-white rounded-lg w-[320px] h-[344px] px-6 ">
+      <img class="align-middle ml-[25%]" src="team 1.png" alt="">
+      <p><b>Бизнесу</b></p>
+      <p> <br>
+        Услуги профессиональных юристов <br>
+         для вашей компании по <br>
+          фиксированному тарифу — это в <br>
+           несколько раз выгоднее, чем <br>
+            содержать свой штат.
+
+      </p>
+    </div>
+  
+    <div class="bg-white rounded-lg w-[320px] h-[344px] px-6 ">
+      <img class="align-middle ml-[25%]" src="3 1.png" alt="">
+      <p><b>StartUP проектам</b></p>
+      <p> <br>
+        Эксперты ILC помогут выбрать <br>
+         оптимальную правовую форму <br>
+        для ведения бизнеса, оптимизировать<br>
+         налоги и подготовить необходимый <br>
+          пакет документов.
+        
+
+      </p>
+    </div>
+  
+    <div class="bg-white rounded-lg w-[320px] h-[344px] px-6 ">
+      <img class="align-middle ml-[25%]" src="family 1.png" alt="">
+      <p><b>Частным клиентам</b></p>
+      <p> <br>
+        Услуги профессиональных юристов <br>
+         для вашей компании по <br>
+          фиксированному тарифу — это в <br>
+           несколько раз выгоднее, чем <br>
+            содержать свой штат.
+
+      </p>
+    </div>
+  
+  </div>
+
+
+  <div class="flex w-[90%] justify-center items-center"><h1 class="text-4xl mt-8">Преимущества сервиса</h1></div>
+
+
+  <!-- ________________________________main-4___________________________________________ -->
+
+ <!-- ________________________________main-5___________________________________________ -->
+
+<div class="flex flex-wrap justify-evenly items-start w-[90%] mt-10 ">
+  <div>
+    <img src="mobile.PNG" alt="">
+  </div>
+
+
+  <div class="text-[#404040] text-[10px]">
+    <p class="text-[#34449C]"><b>S I R I U S</b></p>
+    <p class="mt-6">
+        — первый полноценный искусственный интеллект, <br> самостоятельно консультирующий людей по любым <br> юридическим вопросам в режиме реального времени.
+    </p>
+    <p class="mt-6">
+       Sirius анализирует входящий запрос и оперативно <br> генерирует квалифицированный ответ на основании <br> юридической логики. 
+    </p>
+    <p class="mt-6">
+      Доступ к системе предоставляется владельцу полиса <br>
+      в личном кабинете на нашем сайте.
+    </p>
+  </div>
+
+
+  <div class="text-[10px]">
+    <div class="flex gap-10 mt-10 "> <img width="10px" height="4px" src="Vector.png" alt=""> <p>работает 24/7</p></div>
+  
+    <div class="flex gap-10 mt-6"> <img width="10px" height="4px" src="Vector.png" alt=""> <p>100% точность и корректность ответов</p></div>
+  
+    <div class="flex gap-10 mt-8"> <img width="10px" height="4px" src="Vector.png" alt=""> <p>при необходимости, подключает живого специалиста</p></div>
+  
+    <div class="flex gap-10 mt-8"> <img width="10px" height="4px" src="Vector.png" alt=""> <p>не берет больничный и никогда не  уволится </p></div>
+  
+  </div>
+
+
+</div>
+
+  <!-- ________________________________main-5___________________________________________ -->
+
+   <!-- ________________________________main-6___________________________________________ -->
+
+<div class="flex justify-evenly items-stretch flex-wrap w-[90%] -mt-3">
+  <div class="w-[200px] h-[300px] px-5 rounded-xl bg-white ">
+    <img class="mt-6" src="chat 1.png" alt="">
+    <p class="mt-6 text-[12px]"><b>Удобный <br> Формат</b></p>
+    <p class="mt-6 text-[12px]">
+      Консультируем 24/7 <br>в любом удобном<br> формате: чат, аудио-<br>звонок, c помощью <br>искусственного<br> интеллекта Sirius в <br>личном кабинете.
+    </p>
+
+  </div>
+
+  <div class="w-[200px] h-[300px] px-5 rounded-xl bg-white ">
+    <img class="mt-6" src="Group 297.png" alt="">
+    <p class="mt-6 text-[12px]"><b>Доступная <br> цена</b></p>
+    <p class="mt-6 text-[12px]">
+      Консультируем 24/7 <br>в любом удобном<br> формате: чат, аудио-<br>звонок, c помощью<br>искусственного<br>интеллекта Sirius в<br>личном кабинете.
+    </p>
+
+  </div>
+
+  <div class="w-[200px] h-[300px] px-5 rounded-xl bg-white ">
+    <img class="mt-6" src="Group 298.png" alt="">
+    <p class="mt-6 text-[12px]"><b>Налоговый <br>Калькулятор</b></p>
+    <p class="mt-6 text-[12px]">
+      Консультируем 24/7 <br>в любом удобном<br> формате: чат, аудио-<br>звонок, c помощью<br>искусственного<br>интеллекта Sirius в<br>личном кабинете.
+    </p>
+
+  </div>
+
+        <!-- ------------------------------------------- -->
+
+        <div class="w-[200px] h-[300px] px-5 rounded-xl bg-white ">
+          <img class="mt-6" src="chat 1.png" alt="">
+          <p class="mt-6 text-[12px]"><b>Консруткор <br> Документов</b></p>
+          <p class="mt-6 text-[12px]">
+            Консультируем 24/7 <br>в любом удобном<br> формате: чат, аудио-<br>звонок, c помощью <br>искусственного<br> интеллекта Sirius в <br>личном кабинете.
+          </p>
+      
+        </div>
+      
+        <div class="w-[200px] h-[300px] px-5 rounded-xl bg-white ">
+          <img class="mt-6" src="access 1.png" alt="">
+          <p class="mt-6 text-[12px]"><b>Бесплатный доступ <br> для всех</b></p>
+          <p class="mt-6 text-[12px]">
+            Консультируем 24/7 <br>в любом удобном<br> формате: чат, аудио-<br>звонок, c помощью<br>искусственного<br>интеллекта Sirius в<br>личном кабинете.
+          </p>
+      
+        </div>
+           
+</div>
+
+
+<div class="flex w-[90%] justify-center items-center"><h1 class="text-2xl mt-16"><b>Тарифы</b></h1></div>
+<div class="flex w-[90%] justify-center items-center mt-1"><p class="text-[12px]">для всех и для каждого</p></div>
+<div class="flex w-[90%] justify-center items-center gap-8 mt-8 mb-6"> <button class="w-[100px] h-[50px] bg-[#273895] text-white rounded-xl">1 месяц</button> <p class="text-[#273895] text-[16px]">Год</p></div>
+
+
+
+   <!-- ________________________________main-6___________________________________________ -->
+
+   <!-- ________________________________main-7___________________________________________ -->
+
+<div class="w-[80%] bg-white rounded-l-xl justify-center  m-auto sm:w-[400px] sm:px-0 sm:text-[6px]"> 
+  <div class="flex justify-center gap-5"><p class="text-[#273895] text-[16px] mt-6 "><b>ЛЕГКИЙ СТАРТ</b></p></div>
+
+    <div class="flex justify-center gap-5"><p class="text-[#C9C9C9] text-[20px] mt-3 "><b>БЕСПЛАТНО</b></p></div>
+  
+    <p class="text-[#C9C9C9] flex justify-center gap-5">Для ознакомления c сервисом и его возможностями</p>
+    <p class="flex justify-center mt-4"><b>Для Вас доступно</b></p>
+
+    <div class="flex justify-center gap-5 items-center mt-8">
+      <div class="w-[600px] sm:w-[200px]">
+        <div class="flex justify-start items-center"> <img src="down-filled-triangular-arrow 1.png" alt=""> <p>Конструктор документов</p> </div>
+      
+        <div class="flex justify-start items-center"> <img src="down-filled-triangular-arrow 1.png" alt=""> <p>Личный кабинет (базовая версия)</p> </div>
+      
+      </div>
+    
+      <div class="w-[600px] sm:w-[200px]">
+        <div class="flex justify-start items-center"> <img src="down-filled-triangular-arrow 1.png" alt=""> <p>Sirius</p> </div>
+      
+        <div class="flex justify-start items-center"> <img src="down-filled-triangular-arrow 1.png" alt=""> <p>1 устная первичная консультация по правовому запросу</p> </div>
+      
+      </div>
+    
+
+    </div>
+  
+
+    <div class="flex justify-center items-center gap-5 mt-4">
+      <p class="text-[#273895] text-[16px]">Подробнее в личном кабинете</p>
+      <img src="left-arrow (10) 1.png" alt="">
+    </div>
+  
+    <div class="flex justify-center items-center gap-5 mt-4">
+      <button class="flex justify-center items-center  bg-[#273895] text-white rounded-xl w-[200px] h-[50px] mb-5 sm:w-[150px]">Оставить заявку</button>
+    </div>
+  
+    
+</div>
+</div>
+   <!-- ________________________________main-7___________________________________________ -->
+
+   <div class="flex justify-center items-center w-[80%]"><br></div>
+  
+
+   <!-- ________________________________main-8___________________________________________ -->
+
+
+
+<div class="flex justify-between items-center flex-wrap w-[80%] m-auto  sm:px-0 sm:text-[6px] sm:flex sm:w-[90%] ">
+  <div class="rounded-xl w-[600px] bg-white px-[2%] sm:w-[90%]">
+    <p class="text-[#273895] text-[16px] mt-5">СТАНДАРТ</p>
+    <p class="text-[#C9C9C9] flex justify-start mt-4">Для физических лиц</p>
+    <p class="mt-4"><b>$28/месяц</b></p>
+    <div class="flex justify-start items-start mt-3 gap-4"> <img src="down-filled-triangular-arrow 1.png" alt=""> <p>Бесплатная телефонная линия + функция “перезвоните мне” </p> </div>
+  
+    <div class="flex justify-start items-start mt-3 gap-4"> <img src="down-filled-triangular-arrow 1.png" alt=""> <p>Доступ к первому юридическому <br>
+      интеллекту Sirius 24/7</p> </div>
+    
+      <div class="flex justify-start items-start mt-3 gap-4"> <img src="down-filled-triangular-arrow 1.png" alt=""> <p>Личный кабинет (полная версия)</p> </div>
+    
+      <div class="flex justify-start items-start mt-3 gap-4"> <img src="down-filled-triangular-arrow 1.png" alt=""> <p>Конструктор документов</p> </div>
+    
+      <div class="flex justify-start items-start mt-3 gap-4"> <img src="down-filled-triangular-arrow 1.png" alt=""> <p>Устные и письменные консультации <br>
+        юристов 24/7</p> </div>
+      
+        <p class="text-[#273895] text-[16px] mt-5">Подробнее в личном кабинете</p>
+        <button class="flex justify-center items-center  bg-[#273895] text-white rounded-xl w-[200px] h-[50px] mb-5 mt-5">Оставить заявку</button>
+      
+  
+  </div>
+
+
+  <div class="rounded-xl w-[600px] bg-white px-[2%] sm:w-[90%] ">
+    <p class="text-[#273895] text-[16px] mt-5">БИЗНЕС - КОНСУЛЬТАНТ</p>
+    <p class="text-[#C9C9C9] flex justify-start mt-4">Для физических лиц</p>
+    <p class="mt-4"><b>$38/месяц</b></p>
+    <div class="flex justify-start items-start mt-3 gap-4"> <img src="down-filled-triangular-arrow 1.png" alt=""> <p>Бесплатная телефонная линия + функция “перезвоните мне” </p> </div>
+  
+    <div class="flex justify-start items-start mt-3 gap-4"> <img src="down-filled-triangular-arrow 1.png" alt=""> <p>Доступ к первому юридическому <br>
+      интеллекту Sirius 24/7</p> </div>
+    
+      <div class="flex justify-start items-start mt-3 gap-4"> <img src="down-filled-triangular-arrow 1.png" alt=""> <p>Личный кабинет (полная версия)</p> </div>
+    
+      <div class="flex justify-start items-start mt-3 gap-4"> <img src="down-filled-triangular-arrow 1.png" alt=""> <p>Конструктор документов</p> </div>
+    
+      <div class="flex justify-start items-start mt-3 gap-4"> <img src="down-filled-triangular-arrow 1.png" alt=""> <p>Устные и письменные консультации <br>
+        юристов 24/7</p> </div>
+      
+        <p class="text-[#273895] text-[16px] mt-5">Подробнее в личном кабинете</p>
+        <button class="flex justify-center items-center  bg-[#273895] text-white rounded-xl w-[200px] h-[50px] mb-5 mt-5">Оставить заявку</button>
+  </div>
+
+
+     <!-- ________________________________main-8___________________________________________ -->
+
+     <div class="flex justify-center items-center w-[80%]"><br></div>
+    
+
+     <!-- ________________________________main-9___________________________________________ -->
+
+  <div class="rounded-xl w-[600px] bg-white px-[2%] sm:w-[90%]">
+    <p class="text-[#273895] text-[16px] mt-5">БИЗНЕС ПРЕМИУМ</p>
+    <p class="text-[#C9C9C9] flex justify-start mt-4">Для физических лиц</p>
+    <p class="mt-4"><b>$49/месяц</b></p>
+    <div class="flex justify-start items-start mt-3 gap-4"> <img src="down-filled-triangular-arrow 1.png" alt=""> <p>Бесплатная телефонная линия + функция “перезвоните мне” </p> </div>
+  
+    <div class="flex justify-start items-start mt-3 gap-4"> <img src="down-filled-triangular-arrow 1.png" alt=""> <p>Доступ к первому юридическому <br>
+      интеллекту Sirius 24/7</p> </div>
+    
+      <div class="flex justify-start items-start mt-3 gap-4"> <img src="down-filled-triangular-arrow 1.png" alt=""> <p>Личный кабинет (полная версия)</p> </div>
+    
+      <div class="flex justify-start items-start mt-3 gap-4"> <img src="down-filled-triangular-arrow 1.png" alt=""> <p>Конструктор документов</p> </div>
+    
+      <div class="flex justify-start items-start mt-3 gap-4"> <img src="down-filled-triangular-arrow 1.png" alt=""> <p>Устные и письменные консультации <br>
+        юристов 24/7</p> </div>
+      
+        <p class="text-[#273895] text-[16px] mt-5">Подробнее в личном кабинете</p>
+        <button class="flex justify-center items-center  bg-[#273895] text-white rounded-xl w-[200px] h-[50px] mb-5 mt-5">Оставить заявку</button>
+      
+  
+  </div>
+
+
+
+  <div class="rounded-xl w-[600px] bg-white px-[2%] sm:w-[90%]">
+    <p class="text-[#273895] text-[16px] mt-5">МЕЖДУНАРОДНЫЙ БИЗНЕС</p>
+    <p class="text-[#C9C9C9] flex justify-start mt-4">Для физических лиц</p>
+    <p class="mt-4"><b>$98/месяц</b></p>
+
+    <div class="flex justify-start items-start mt-3 gap-4"> <img src="down-filled-triangular-arrow 1.png" alt=""> <p>Бесплатная телефонная линия + функция “перезвоните мне” </p> </div>
+  
+    <div class="flex justify-start items-start mt-3 gap-4"> <img src="down-filled-triangular-arrow 1.png" alt=""> <p>Доступ к первому юридическому <br>
+      интеллекту Sirius 24/7</p> </div>
+    
+      <div class="flex justify-start items-start mt-3 gap-4"> <img src="down-filled-triangular-arrow 1.png" alt=""> <p>Личный кабинет (полная версия)</p> </div>
+    
+      <div class="flex justify-start items-start mt-3 gap-4"> <img src="down-filled-triangular-arrow 1.png" alt=""> <p>Конструктор документов</p> </div>
+    
+      <div class="flex justify-start items-start mt-3 gap-4"> <img src="down-filled-triangular-arrow 1.png" alt=""> <p>Устные и письменные консультации <br>
+        юристов 24/7</p> </div>
+      
+        <p class="text-[#273895] text-[16px] mt-5">Подробнее в личном кабинете</p>
+        <button class="flex justify-center items-center  bg-[#273895] text-white rounded-xl w-[200px] h-[50px] mb-5 mt-5">Оставить заявку</button>
+      
+  
+  </div>
+
+
+</div>
+
+
+<!-- ---------------------------------------------FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF -->
+
+<div class="absolute z-10 mt-24 px-6  sm:w-[400px] sm:text-[6px]">
+  <h1 class="text-3xl text-white ] sm:mt-0 sm:w-[400px] sm:text-[6px]">Станьте <br>
+    партнером ILC</h1>
+    <p class="text-white mt-4 sm:w-[400px] sm:text-[6px]">и зарабатывайте на рекомендациях <br>
+        в любое время, из любой точки мира</p>
+</div>
+
+
+<div class=" flex justify-center  relative z-0 mt-4 sm:w-[400px]">
+  <img width="100%" src="image 30.png" alt="">
+</div>
+
+
+
+
+<!-- ---------------------------------------------FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF -->
+
+
+<div class="w-[100%] flex flex-col justify-center items-center sm:flex sm:flex-col sm:justify-center sm:items-center">
+
+
+<div class=" w-[80%] flex flex-col items-center justify-center gap-[20px]">
+  <div class="flex flex-row bg-[#FFF] rounded-[20px] w-[1062px] h-[220px] justify-center items-center sm:flex sm:flex-col sm:justify-center sm:items-center sm:w-[380px] sm:h-[410px] sm:rounded-[29px]">
+      <img src="undraw_Gift_card_re_5dyy 1.svg" alt="" class="sm:-[136px] sm:h-[75px]">
+      <div class="flex flex-col ml-[32px]">
+          <h1 class="text-lg font-bold">Высокие бонусы</h1>
+          <p class="mt-[16px] w-[515px] h-[90px] sm:w-[232px] sm:h-[150px]"> Вы получаете до 35% от стоимости каждого полиса, который был куплен по вашей рекомендации. 
+              <br>
+              <br>
+              <span class="color-[#404040]">
+                  К примеру: юридический полис “Международный бизнес” стоит $750/год, с него вы зарабатываете $260.
+              </span></p>
+      </div>
+    
+  </div>
+
+<!-- ----------------------------- -->
+  <div class="flex flex-row bg-[#FFF] rounded-[20px] w-[1062px] h-[220px] justify-center items-center sm:flex sm:flex-col sm:justify-center sm:items-center sm:w-[380px] sm:h-[520px] sm:rounded-[29px] ">
+      <img src="undraw_Preferences_re_49in 1.svg" alt="" class="sm:-[136px] sm:h-[92px]">
+      <div class="flex flex-col ml-[32px]">
+          <h1 class="text-lg font-bold">Полезный продукт</h1>
+          <p class="mt-[16px] w-[515px] h-[110px] sm:w-[232px] sm:h-[150px]"> Сервис ILC — это ваша личная команда юристов, которая работает     в формате “здесь и сейчас”, 24/7, без выходных. <br>
+              <br>
+              Нужна помощь? Всего 1 клик и персональный юрист ILC уже решает ваш вопрос. Это в несколько раз дешевле и быстрее, чем искать частного специалиста.</p>
+      </div>
+    
+  </div>
+
+<!-- ----------------------------- -->
+  <div class="flex flex-row bg-[#FFF] rounded-[20px] w-[1062px] h-[220px] justify-center items-center sm:flex sm:flex-col sm:justify-center sm:items-center sm:w-[380px] sm:h-[520px] sm:rounded-[29px]">
+      <img src="undraw_Development_re_g5hq 1.svg" alt="" class="sm:-[190px] sm:h-[92px]">
+      <div class="flex flex-col ml-[32px]">
+          <h1 class="text-lg font-bold">Широкая аудитория</h1>
+          <p class="mt-[16px] w-[515px] h-[90px] sm:w-[232px] sm:h-[150px]"> Качественная юридическая помощь нужна абсолютно всем: бизнесу, семьям, крупным компаниям, экспертам и частным лицам. 
+              <br> <br>
+              Рекомендуя полис ILC, вы помогаете людям оперативно решать жизненные задачи в 1 клик.</p>
+      </div>
+    
+  </div>
+
+<!-- ----------------------------- -->
+  <div class="flex flex-row bg-[#FFF] rounded-[20px] w-[1062px] h-[220px] justify-center items-center sm:flex sm:flex-col sm:justify-center sm:items-center sm:w-[380px] sm:h-[431px] sm:rounded-[29px]">
+      <img src="undraw_education_f8ru 1.svg" alt="" class="sm:-[143px] sm:h-[104px]">
+      <div class="flex flex-col ml-[32px]">
+          <h1 class="text-lg font-bold">Обучение и поддержка</h1>
+          <p class="mt-[px] w-[515px] h-[160px] sm:w-[232px] sm:h-[150px]">Вы получите доступ в личный кабинет с подробной информацией о том, как:
+              <br>
+              эффективно привлекать клиентов, <br>
+              отслеживать конверсию, <br>
+              повышать свой доход, <br>
+              обналичивать средства и многое другое.
+          </p>
+          <h1 class="text-lg font-semibold sm:mt-[80px]"> Мы поддержим вас на всех этапах.</h1>
+      </div>
+    
+  </div>
+
+
+  <div><button class="w-[250px] h-[56px] rounded-xl bg-[#273895] text-white mt-[20px]">Стать партнером</button></div>
+
+</div>
+<!-- ------------------------------------------- -->
+<div class="w-[80%] flex flex-col justify-center items-center mt-[60px] gap-[20px] sm:flex sm:flex-col sm:justify-center sm:items-center">
+  <h1 class="text-2xl not-italic font-bold leading-10 w-[260px] h-[37px] text-center">Начать легко</h1>
+  <div class="flex flex-row justify-start items-start gap-[20px] sm:flex sm:flex-col sm:justify-center sm:items-center">
+      <div class="gap-[20px] flex flex-col">
+          <div class="bg-[#FFFFFF] w-[296px] h-[243px] rounded-[20px] flex flex-col justify-center items-start gap-[16px]">
+              <img class="w-[40px] h-[40px] ml-[10px]" src="Снимок экрана (241).png" alt="">
+              
+                  <h1 class="text-xl  not-italic font-bold ml-[10px]">Регистрация</h1>
+                  <p class="w-[232px] h-[80px] ml-[10px] sm:w-[232px] sm:h-[150px]">Заполните простую форму 
+                      для участия в программе 
+                      и активируйте клиентский пакет.</p>
+              
+          </div>
+        
+          <div class="bg-[#FFFFFF] w-[296px] h-[243px] rounded-[20px] flex flex-col justify-center items-start gap-[16px]">
+              <img class="w-[40px] h-[40px] ml-[10px]" src="Снимок экрана (242).png" alt="">
+              <h1 class="text-xl  not-italic font-bold ml-[10px]">Обучение</h1>
+              <p class="w-[232px] h-[80px] ml-[10px]">Вас ждут полезные обучающие материалы, с помощью которых вы легко сможете монетизировать свое время.</p>
+          </div>
+        
+      </div>
+    
+      <div class="bg-[#FFFFFF] rounded-[20px] w-[312px] h-[502px] flex flex-col justify-center items-start gap-[16px]">
+          <img src="undraw_All_the_data_re_hh4w 1.svg" class="-[231px] h-[161px] ml-[10px]" alt="">
+          <img class="w-[40px] h-[40px] ml-[10px]" src="Снимок экрана (243).png" alt="">
+          <h1 class="text-xl  not-italic font-bold ml-[10px]">Стратегия</h1>
+          <p class="w-[232px] h-[80px] ml-[10px]">Воспользуйтесь подробным и понятным алгоритмом действий для достижения классных результатов. </p>
+      </div>
+    
+      <div class="bg-[#FFFFFF] rounded-[20px] w-[312px] h-[366px] flex flex-col justify-center items-start gap-[16px]">
+          <img src="target-2 1.svg" class="ml-[10px]" alt="">
+          <h1 class="text-xl  not-italic font-bold ml-[10px]">Результат</h1>
+          <p class="w-[232px] h-[100px] ml-[10px]">Зарабатывайте до 35% 
+              с каждой покупки полиса 
+              по вашей партнерской ссылке с первых дней после регистрации.</p>
+              <button class="w-[232px] h-[56px] bg-[#273895] rounded-xl text-white mt-[16px] ml-[10px]">Начать зарабатывать</button>
+      </div>
+    
+  </div>
+
+</div>
+
+<!-- ------------------------------------------- -->
+
+<div class="bg-[#273895] w-[100%] h-[287px] text-white flex flex-row justify-center items-center sm:flex sm:flex-col sm:justify-center sm:items-center sm:w-[400px] sm:h-[552px]">
+  <div>
+      <h1 class="w-[406px] h-[81px] text-2xl  not-italic font-bold leading-10 sm:w-[380px] sm:h-[118px]">Прогнозы партнерской программы на 2021 год</h1>
+  </div>
+
+  <div class="flex flex-row justify-center items-center gap-[8px] sm:flex sm:flex-col sm:justify-center sm:items-center sm:gap-y-[50px] sm:gap-x-[50px]">
+      <div class="flex flex-row sm:flex sm:flex-row sm:justify-center sm:items-center sm:gap-y-[50px]">
+          <div class="flex flex-col justify-center items-center sm:justify-center sm:items-center">
+              <img src="$2 млн..svg" alt="" class="w-[186px] h-[37px]">
+              <p class="w-[122px] h-[40px]">Заработают партнеры ILC</p>
+          </div>
+        
+  
+          <div class="flex flex-col justify-center items-center sm:justify-center sm:items-center">
+              <img src="10 000+.svg" alt="" class="w-[186px] h-[37px]">
+              <p class="w-[202px] h-[40px] sm:w-[170px] sm:h-[60px]">Полисов будет оформлено по партнерским ссылкам</p>
+          </div>
+        
+      </div>
+    
+      <div class="flex flex-row sm:flex sm:flex-row sm:justify-center sm:items-center sm:gap-y-[50px]">
+          <div class="flex flex-col justify-center items-center sm:flex sm:justify-center sm:items-center">
+              <img src="800+.svg" alt="" class="w-[186px] h-[37px]">
+              <p class="w-[168px] h-[40px]"> Партнеров присоединится к нам</p>
+          </div>
+        
+  
+          <div class="flex flex-col justify-center items-center sm:justify-center sm:items-center">
+              <img src="$1500.svg" alt="" class="w-[186px] h-[37px]">
+              <p class="w-[170px] h-[40px]">Средний доход партнера в месяц</p>
+          </div>
+        
+      </div>
+    
+  </div>
+
+</div>
+
+<!-- ------------------------------------------- -->
+
+  <div class="flex flex-row justify-start items-start sm:flex sm:flex-col-reverse sm:justify-center sm:items-center sm:w-[400px] sm:h-[552px]">
+      <div class="mt-[60px] sm:-h-[500px] sm:mt-[100px]">
+          <img  class="relative sm:w-[303px] sm:h-[403px] sm:left-[30px]" src="photo_2021-09-30_12-41-46 1 (1).png" alt="">
+          <img  class="relative top-[-120px] left-[150px] sm:left-[20px] sm:w-[340px] sm:h-[200px]" src="Rectangle 155.svg" alt="">
+          <p class="text-6xl not-italic  font-normal leading-4 w-[29px] h-[13px] relative top-[-260px] left-[210px] sm:left-[50px]">“</p>
+          <p class="w-[296px] h-[48px] text-xs italic font-normal leading-4 relative top-[-260px] left-[210px] sm:left-[50px] sm:w-[306px]">Я лично буду поддерживать вас на всех этапах <br> развития в программе. Обращайтесь ко мне <br> 
+              с любым вопросом email.</p>
+      </div>
+    
+
+      <div class="ml-[96px] flex flex-col justify-start items-start mt-[100px] sm:mt-[1600px] sm:ml-[0px] sm:h-[380px]">
+          <p class="text-[#404040] w-[219px] sm:h-[380px]">Руководитель ООО ILC </p>
+          <h1 class="text-4xl font-bold sm:h-[380px]">Наталья Гуторова</h1>
+          <p class="font-semibold text-sm mt-[16px] sm:w-[360px]">10 лет в управлении и юриспуденции</p>
+          <ul class="w-[496px] h-[120px] mt-[32px] sm:w-[360px]">
+              Мы стараемся окружить заботой и создать максимально комфортные условия для развития каждого партнера:
+              <li>личный наставник,</li>
+              <li>пошаговое обучение,</li>
+              <li>готовые инструменты для продвижения <br> и мгновенные выплаты бонусов.</li>
+          </ul>
+          <p class="w-[469px] h-[40px] mt-[30px] sm:w-[360px] sm:mt-[50px]">Больше деталей партнерской программы смотрите в личном кабинете после регистрации.</p>
+          <button class="w-[251px] h-[56px] bg-[#273895] text-white rounded-xl mt-[32px]">Зарегистрироваться</button>
+      </div>
+    
+  </div>
+
+
+<hr class="w-[100%] sm:hidden">
+
+<div class="w-[80%] flex flex-row justify-between items-center h-[150px] sm:flex sm:flex-col sm:justify-center sm:items-center sm:mt-[900px] sm:gap-y-[40px]">
+  <div class="flex flex-row justify-between items-center sm:flex sm:flex-col sm:justify-center sm:items-center">
+      <img class="w-[199px] h-[63px]" src="logo.PNG" alt="">
+      <p class="w-[227] h-[40px] ml-[48px] sm:w-[327px] sm:h-[40px] sm: text-center sm:mt-[20px]">Первый цифровой международный <br>
+          юридический центр</p>
+  </div>
+
+  <div class="flex flex-row gap-[8px] gap-x-[15px]">
+      <img class="w-[18px] h-[18px] sm:w-[45px] sm:h-[45px]" src="vk 1.svg" alt="">
+      <img class="w-[18px] h-[18px] sm:w-[45px] sm:h-[45px]" src="instagram — копия 1.svg" alt="">
+      <img class="w-[18px] h-[18px] sm:w-[45px] sm:h-[45px]" src="twitter 1.svg" alt="">
+      <img class="w-[18px] h-[18px] sm:w-[45px] sm:h-[45px]" src="facebook-letter-logo 1.svg" alt="">
+  </div>
+
+</div>
+
+<div class="bg-[#e9edf3] w-[100%] h-[52px] sm:h-[150px] flex justify-center items-center text-[#7A7A7A] sm:flex sm:flex-col sm:justify-center sm:items-center sm:mt-[100px]">
+  <div class="w-[80%] flex flex-row justify-between items-center sm:flex sm:flex-col sm:justify-center sm:items-center">
+      <p class=" sm:text-center">©2021 «International Legal Center» <span class="sm:hidden">|</span>   Разработано: effex-it.com</p>
+      <div class="flex flex-row gap-[16px] sm:flex sm:flex-col sm:justify-center sm:items-center sm:mt-[20px]">
+          <p>Политика конфиденциальности</p>
+          <p>Пользовательское соглашение</p>
+      </div>
+    
+  </div>
+
+</div>
+</div>
+</body>
+</html>
